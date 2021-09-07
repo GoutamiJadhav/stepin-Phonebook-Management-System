@@ -5,7 +5,7 @@
  * Using C Programming for this also helps me to understand the concepts of it.
  
 ## Research
-### Library Management Software System.
+### Phonebook Management system 
 The histoy of libraries began with the first efforts to organize collections of documents. Library which contains collection of material on one or several subjects,made accessible to a defined community for reference or borrowing. A library's collection can include printed materials and other physical resources in many formats. A library, which may vary widely in size, may be organized for use and maintained by a public body such as a government, an institution, or a private individual. Library also provide space for individual to study/read books. 
 
 ### Benefits
@@ -69,10 +69,10 @@ If Indian App firm is chosen to create a Library Management System then the cost
 ##  Low level Requirements:
  
 | ID | Description | Status (Implemented/Future) |
-| ------ | --------- | ------ | ----- |
+| ------ | --------- | ------ | 
 
-|HR01_LR01|  New contact shall be added by providing all the asked information                                                                                            
-|IMPLEMENTED  |
+| HR01_LR01 | New contact shall be added by providing all the asked information |  IMPLEMENTED |                                                                                          
+
 | HR03_LR02 | If user searches for an invalid contact "No contact found" message should be displayed |  IMPLEMENTED  |
 | HR05_LR03 | User need to enter Phone number for the Contact record to be updated, if no such record  found it should display "Not found"  | IMPLEMENTED  |
 | LR05_HR04 | User shall be able to list all the contacts |IMPLEMENTED  |
