@@ -68,9 +68,6 @@ If Indian App firm is chosen to create a Library Management System then the cost
  
 | ID | Description | Status (Implemented/Future) |
 | -------- | ---------- | ----------- | 
-
-| LR01 | New contact shall be added by providing all the asked information |  IMPLEMENTED |                                                                                          
-
-| LR02 | If user searches for an invalid contact "No contact found" message should be displayed |  IMPLEMENTED  |
+| LR01 | New contact shall be added by providing all the asked information |  IMPLEMENTED |                                                                                          | LR02 | If user searches for an invalid contact "No contact found" message should be displayed |  IMPLEMENTED  |
 | LR03 | User need to enter Phone number for the Contact record to be updated, if no such record  found it should display "Not found"  | IMPLEMENTED  |
 | LR04 | User shall be able to list all the contacts | IMPLEMENTED  |
