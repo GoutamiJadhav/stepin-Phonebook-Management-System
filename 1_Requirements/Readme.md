@@ -1,24 +1,22 @@
 # Requirements
 ## Introduction
- * We see libraries in many places: Public library, Collages, Schools, Personal library.
- * This topic was chosen because as I go to library to issue books that make me curious how the basic operations are performed internally. 
- * Using C Programming for this also helps me to understand the concepts of it.
+Phonebook system is a small application based project.In older days we stored all our important contact details in books and papers. Here we proposed a new system using this application we can store all the details in central repository.
  
 ## Research
 ### Phonebook Management system 
-The histoy of libraries began with the first efforts to organize collections of documents. Library which contains collection of material on one or several subjects,made accessible to a defined community for reference or borrowing. A library's collection can include printed materials and other physical resources in many formats. A library, which may vary widely in size, may be organized for use and maintained by a public body such as a government, an institution, or a private individual. Library also provide space for individual to study/read books. 
+In manual method if we forget information book then it very difficult to get the contact details.In this project we can save our contacts, address and we can search them by name and also, we can see all them at a time. This system is developed using the general required by the user while using the phone directory book.In order to keep updated the phone book directory, the user is able to add and delete as well as modify the existing records within the phone book directory.User is also able to view the list of all the contacts added.
 
 ### Benefits
-Library management system offer a range of benefites. Here are few of them: 
+Phonebook management system offer a range of benefites. Here are few of them: 
 
-### Better Book Management
-The library management system helps librarian to maintain the book easily.  
+### Better Contact Management
+The Phonebook management system helps user to maintain the contact details easily.  
 
-### Ease burden on user
-When user want to search for any book there is no need to check for all the book in the library they can use the search function which make the availabilty of book easy and save the time.
+### Keep Contacts in One Place
+Address book management software allows you to keep contact information safe in one location. Different address book management systems store data in various formats. Keeping contact records in one place means that you will always have access to accurate data and be able to share it across your business locations.
 
 ### Ease of record
-Library management system allows to maintain the records easy. We can know who as issued book, number of books available in each catagory. As it reduce the manual work.
+Phonebook management system allows to maintain the records easy. It reduces a manual work by avoiding using book and pen to write address and contacts of invidual system.
 
 ### Organization
 This system is used in many organizations where there is need of information ina single place which helps to reduce time waste.  
@@ -69,7 +67,7 @@ If Indian App firm is chosen to create a Library Management System then the cost
 ##  Low level Requirements:
  
 | ID | Description | Status (Implemented/Future) |
-| ------ | --------- | ------ | 
+| -------- | ---------- | ----------- | 
 
 | HR01_LR01 | New contact shall be added by providing all the asked information |  IMPLEMENTED |                                                                                          
 
