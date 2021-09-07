@@ -15,12 +15,11 @@ Folder             | Description
 
 | Feature Id | Feature |
 | -----------|---------|
-|F_01| Enter the PIN to enter the system |
-|F_02| Add new record |
-|F_03| Search for the book by name |
-|F_04| Listing all the book available in library |
-|F_05| Update data in list of books |
-|F_06| Count the number of books in particular category |
+|F_01| Add new contact details |
+|F_02| Edit contact details |
+|F_03| Delete contact details |
+|F_04| search contact|
+|F_05| List of all the contacts |
 
 
 ## Integrated Tools to GitHub
