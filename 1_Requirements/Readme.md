@@ -38,21 +38,16 @@ If Indian App firm is chosen to create a Library Management System then the cost
 
 
 
-## Why:
+## Why
 * Which helps to maintain the records of contacts and their details.
-
-## What:
+## What
 * To bulid a system to add, search, update the contact information.
-
-## When:
+## When
 * When we want to reduce the manual work and there time.
-
-## Where:
+## Where
 * Where there is a collection of different materaials in one place.
-
-## How:
+## How
 * By creating a system which will provide all the functionalities required.
-
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
