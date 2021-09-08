@@ -6,7 +6,7 @@
 PROJ_NAME = Phonebook
 
 
-SRC = 3_implementation/main.c\
+SRC = main.c\
 src/add.c\
 src/view.c\
 src/search.c\
