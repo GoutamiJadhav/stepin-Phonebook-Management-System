@@ -4,7 +4,7 @@
 #<TAB>Command
 
 PROJ_NAME = Phonebook
-TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
 
 SRC = main.c\
 src/add.c\
