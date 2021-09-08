@@ -1,5 +1,7 @@
 # stepin-Phonebook-Management-System
 [![C/C++ CI - Build Status](https://github.com/GoutamiJadhav/stepin-Phonebook-Management-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/GoutamiJadhav/stepin-Phonebook-Management-System/actions/workflows/c-cpp.yml)
+![code quality score](https://www.code-inspector.com/project/27495/score/svg)
+1[code grade](https://www.code-inspector.com/project/27495/status/svg)
 
 
 
