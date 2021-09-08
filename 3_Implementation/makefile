@@ -12,13 +12,12 @@ src/view.c\
 src/search.c\
 src/edit.c\
 src/delete.c\
+test/test1.c\
+unity/unity.c
 
-COV_SRC = main.c
 
-TEST_SRC = test1.c \
-unity/unity.c 
-INC_H = inc
-INC_T = unity
+
+
 
 ifdef OS
    RM = del 
@@ -31,21 +30,31 @@ else
 	  EXEC = out
    endif
 endif
-#.PHONY: run clean test doc all
+TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
+INC     =-Iinc\
 
-all:
-	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+all:$(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -Im
 
-run:
-	$(call FixPath,$(PROJ_NAME).$(EXEC))
+run: all
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 	
-test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+build_test:
+	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -Im
 
-cppcheck:
-	cppcheck --enable=all $(SRC) main.c
-	
-debug:
-	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
-	gdb $(PROJ_NAME).$(EXEC)
+run_test:build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+
+analyze: test mechanic statuccheck coverage sanitize_check
+
+staticcheck:
+	cppcheck --enable=all -iunity
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+clean:
+	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
