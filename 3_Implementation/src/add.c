@@ -1,5 +1,5 @@
 #include "function.h"
-int add_contact()
+void add_contact()
 {
     system("cls");
         char r[10];
