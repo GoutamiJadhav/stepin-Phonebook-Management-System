@@ -172,9 +172,6 @@ int edit_contact()
         fp = fopen("temp.txt","w");
         fclose(fp);
     }
-    if(choice==5)
-    {
-        int main();
-    }
+    
 
 }
