@@ -31,7 +31,7 @@ else
 	  EXEC = out
    endif
 endif
-.PHONY: run clean test doc all
+#.PHONY: run clean test doc all
 
 all:
 	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
