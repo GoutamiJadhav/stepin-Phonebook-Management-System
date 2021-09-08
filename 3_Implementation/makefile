@@ -12,8 +12,7 @@ src/view.c\
 src/search.c\
 src/edit.c\
 src/delete.c\
-#test/test1.c
-#unity/unity.c
+
 
 
 
@@ -30,8 +29,7 @@ else
 	  EXEC = out
    endif
 endif
-TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
-INC     =-Iinc\
+
 
 all:$(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -Im
@@ -39,11 +37,7 @@ all:$(SRC) $(BUILD)
 run: all
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 	
-#build_test:
-#	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -Im
 
-#run_test:build_test
-#	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 
 analyze: test mechanic statuccheck coverage sanitize_check
